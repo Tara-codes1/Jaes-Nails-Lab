@@ -50,7 +50,7 @@ ${notes}`;
 
 });
 const menuToggle = document.getElementById("menu-toggle");
-const navLinks = document.getElementById("nav-links");
+const navLinks = document.querySelector(".navbar ul");
 
 menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
