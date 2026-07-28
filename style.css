@@ -741,6 +741,7 @@ line-height:1.8;
     .about{
         grid-template-columns:1fr;
         text-align:center;
+        padding:80px 20px;
     }
 
     .about-image img{
@@ -749,5 +750,27 @@ line-height:1.8;
         display:block;
         max-width:400px;
     }
+
+    .contact-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .pricing-container{
+        grid-template-columns:1fr;
+    }
+
+    .gallery-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .service-container{
+        grid-template-columns:1fr;
+    }
+
+    .contact-box{
+        width:90%;
+    }
+
+
 }
 
