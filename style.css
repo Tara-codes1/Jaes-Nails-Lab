@@ -771,6 +771,10 @@ line-height:1.8;
         width:90%;
     }
 
+    body{
+        overflow-x:hidden;
+    }
+
 
 }
 
