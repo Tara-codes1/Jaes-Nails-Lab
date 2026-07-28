@@ -104,7 +104,7 @@ color:var(--accent);
 
 padding:14px 28px;
 
-background:var(--gold);
+background:var(--primary);
 
 text-decoration:none;
 
@@ -736,36 +736,6 @@ line-height:1.8;
 
 }
 
-@media (max-width: 768px) {
 
-    .menu-toggle {
-        display: block;
-        font-size: 30px;
-        cursor: pointer;
-        color: white;
-    }
-
-    .navbar ul {
-        display: none;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background: black;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 0;
-    }
-
-    .navbar ul.active {
-        display: flex;
-    }
-
-    .navbar ul li {
-        margin: 15px 0;
-    }
-
-    .navbar ul li a {
-        color: black;
-    }
 }
+

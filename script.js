@@ -49,9 +49,3 @@ ${notes}`;
     }, 800);
 
 });
-const menuToggle = document.getElementById("menu-toggle");
-const navLinks = document.querySelector(".navbar ul");
-
-menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
